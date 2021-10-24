@@ -9,10 +9,11 @@ Google Map APIを利用した地域の地図表示とAjaxでのいいね機能�
 
 <img width="737" alt="system" src="https://user-images.githubusercontent.com/93070756/138587907-2074ce77-54dc-486d-ae72-a9c6a6d25a44.png">
 
-## TownBlogのDB設計
+## TownBlogの環境
 
-「blueprint」より、テーブル定義書・ER図を参照して下さい。
+MAMP/MySQL/PHP
 
-## TownBlogのデモンストレーション
+## TownBlogのDB
 
-「blueprint」より、解説動画を参照して下さい。
+DB名:townblog
+townblog.sqlをインポートしてお使いください。
