@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin:0px;padding:0px;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  text-align:center;
+}
+
+body #main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 650px;
+}
+
+header {
+  background-color: green;
+}
+
+header .header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  display: flex;
+  text-align: left;
+}
+
+header h3 {
+  margin: auto 5px;
+}
+
+header .logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+header .logo img {
+  width: 30px;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+header .go_nav {
+	flex: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	line-height: 50px;
+}
+
+header .go_nav .menu {
+  text-decoration: none;
+  color: #ddd;
+	padding: 0 10px;
+}
+
+main {
+  height: 300px;
+}
+
+main h2 {
+  width: 350px;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: left;
+}
+
+main .concept {
+  height: 70px;
+  margin-top: 70px;
+  width: 350px;
+  margin-bottom: 70px;
+}
+
+.login h2,
+.profile h2 {
+  margin-top: 10px;
+}
+
+.login table {
+  border: 1px solid #eee;
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.profile table {
+  border: 1px solid #eee;
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.profile table td,
+.login table td {
+  background: #eee;
+}
+
+.profile table tr:nth-child(odd) td,
+.login table tr:nth-child(odd) td {
+	background: #fff;
+}
+
+.profile table tr:nth-child(even),
+.login table tr:nth-child(even) {
+	background: #eee;
+}
+
+.profile table th {
+  text-align: left;
+}
+
+.login table a {
+  color: inherit;
+  font-size: 5px;
+}
+
+.required {
+  color: red;
+  font-size: 10px;
+}
+
+textarea {
+  resize: none;
+  width:200px;
+  height:100px;
+}
+
+.btn-good{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-good:hover{
+    color: #f44336;
+}
+.active{
+    color: #f44336;
+}
+.btn-good .active{
+    color: #f44336;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 500px;
+}
