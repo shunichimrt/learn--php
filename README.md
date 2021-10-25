@@ -16,4 +16,4 @@ MAMP/MySQL/PHP
 ## TownBlogのDB
 
 DB名:townblog<br>
-townblog.sqlをインポート下さい。
+townblog.sqlをインポートして下さい。
